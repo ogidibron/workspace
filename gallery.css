@@ -1,0 +1,33 @@
+p{
+    text-align: center;
+    font-size: bold;
+    font-family: serif;
+    color: #ffffff;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+body{
+    background-color: orange;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0046;
+    border-radius: 13px;
+    box-shadow: 4px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
